@@ -21,7 +21,7 @@ xiangyuecn编写，学习zookeeper之用，还没弄懂怎么配置zookeeper，�
 配置模板文件格式处理、日期替换更新脚本
 
 #### winsw1.9.exe
-windows服务安装器，用于把zookeeper安装为系统服务，下载地址：http://central.maven.org/maven2/com/sun/winsw/winsw/1.9/，配置介绍：https://github.com/kohsuke/winsw/blob/master/doc/xmlConfigFile.md。
+windows服务安装器，用于把zookeeper安装为系统服务，下载地址：http://central.maven.org/maven2/com/sun/winsw/winsw/1.9/ ，配置介绍：https://github.com/kohsuke/winsw/blob/master/doc/xmlConfigFile.md。
 
 #### config.txt
 配置模板文件，支持任意格式重复内容只需定义一次，任何地方引用替换，大大简化重复配置的编写（起源于Ngnix配置）；此文件不提供不影响使用。
@@ -32,7 +32,7 @@ windows服务安装器，用于把zookeeper安装为系统服务，下载地址�
 文件内`配置部分`可以调整：
 1. 对于config.txt模板文件并非一定要放到根目录，可以放到其他地方，通过修改configTxt定义，指向配置模板文件。
 2. 配置文件名称通过confPath指定，默认为conf/zoo.cfg，如果需要改成别的文件名，修改即可。
-3. 服务名称通过svs修改，默认为Zookeeper；*服务安装后默认为本地系统账户，如需更改请到服务管理里面更改账户*。
+3. 服务名称通过svs修改，默认为Zookeeper；***服务安装后默认为本地系统账户，如需更改请到服务管理里面更改账户***。
 
 服务安装运行后，winsw会产生3个log文件（参考图1），可以删除，winsw1.9.xml文件不可删除，否则无法卸载和启动。
 
