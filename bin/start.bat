@@ -11,7 +11,7 @@
 ::【5】此程序由
 ::		start.bat 主脚本
 ::		tp.vbs 配置文件生成脚本
-::		winsw1.9.exe windows服务安装器，下载地址：http://download.java.net/maven/2/com/sun/winsw/winsw/ 配置介绍：https://kenai.com/projects/winsw/pages/ConfigurationSyntax
+::		winsw1.9.exe windows服务安装器，下载地址：http://central.maven.org/maven2/com/sun/winsw/winsw/1.9/ 配置介绍：https://github.com/kohsuke/winsw/blob/master/doc/xmlConfigFile.md
 ::	这几个文件组成，缺一不可
 
 @echo off
